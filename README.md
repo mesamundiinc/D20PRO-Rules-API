@@ -1,4 +1,5 @@
-** note ** the build file included is a stub and does not do anything at this point. I'm still working on figuring out a method to build the rules api files via gradle as the original system was 100% ant based. I'll update the readme when the build system is complete. If you have the skills and wanted to build a gradle build script for this in the meantime, well, it'd be awesome if you shared it back to the project!
+**NOTE**
+the build file included is a stub and does not do anything at this point. I'm still working on figuring out a method to build the rules api files via gradle as the original system was 100% ant based. I'll update the readme when the build system is complete. If you have the skills and wanted to build a gradle build script for this in the meantime, well, it'd be awesome if you shared it back to the project!
 
 # Project Brief
 The D20PRO Rules API provides a mechanism for customization of the internal rules behaviors of D20PRO's. The results of a specific rules api build should be a rules.jar file named according to the system it provides. These files are then pushed to D20PRO's Judge/AddOns/Rules directory and will be available as a selectable rule(s) during campaign creation. For existing campaigns, the added rules will be available via the Options->Rules->Game System drop down selection.
