@@ -1,5 +1,30 @@
-# D20PRO-Rules-API
-The D20PRO Rules API provides a mechanism for customization of the internal rules behaviors of D20PRO's.
+** note ** the build file included is a stub and does not do anything at this point. I'm still working on figuring out a method to build the rules api files via gradle as the original system was 100% ant based. I'll update the readme when the build system is complete. If you have the skills and wanted to build a gradle build script for this in the meantime, well, it'd be awesome if you shared it back to the project!
+
+# Project Brief
+The D20PRO Rules API provides a mechanism for customization of the internal rules behaviors of D20PRO's. The results of a specific rules api build should be a rules.jar file named according to the system it provides. These files are then pushed to D20PRO's Judge/AddOns/Rules directory and will be available as a selectable rule(s) during campaign creation. For existing campaigns, the added rules will be available via the Options->Rules->Game System drop down selection.
+
+To help folks get a sense of what we're doing and where we're at on this API, I've left the commented out code in place. While this is not the prettiest code I've worked on, it does the job well and will get a beautification/orginazation clean up pass in the relatively near future -- time permitting.
+
+For your benefit, we've opted to include the full set of available rules currently provided to D20PRO. This includes the following definitions:
+
+* Dungeons & Dragons (3.5)
+* Dungeons & Dragons (4.0)
+* Dungeons & Dragons (5.0)
+* Esper Genesis (D&D5e based)
+* Pathfinder (3.5 OGL)
+* Pathfinder 2.0 (very, very loosely built at this point)
+* Starfinder
+
+# Project Rules
+First of all, we are extremely open to contributions. If you build out a system spec and would like to include it in the repository, please feel free to contact us or request a merge (if you forked the project).
+
+Other than that, we ask that you are polite and courteous to the community in any comments or communications. The code provided is for a game project and some of it may not follow todays standards or best practices. We're happy to update the code accordingly, however, please keep in mind that this work is the culmination of many years of development (on the core D20PRO application) and standards change more often then most folks realize!
+
+Secondly, if you wish to publically share your rules, please be courteous to the content creators. If you're building out a new game system, you should not include proprietary information in the public rules which would remove the need for a player of that system to purchase the content from the creator. We are not trying take funds from the folks who are making the content we love, but rather provide tools to play that content online and with like minded gamers.
+
+So all this boils down to, "don't be a jerk." That pretty much sums up the rules!  The rest is in the usage license.
+
+# D20PRO-Rules-API Class/Feature Overview
 This includes the following main areas of interest:
 
 * Abilities
